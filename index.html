@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCS</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="book1">
+                <label for="">computer</label>
+                <input id="BookOne" type="text" placeholder="marks">
+            </div>
+            <div class="book2">
+                <label for="">English</label>
+                <input type="text" id="BookTwo" placeholder="marks">
+            </div>
+            <div class="book3">
+                <label for="">Pak.Studies</label>
+                <input type="text" id="BookThree" placeholder="marks">
+            </div>
+            <div class="book4">
+                <label for="">Mathmatics</label>
+                <input type="text" id="BookFour" placeholder="marks">
+            </div>
+            <div class="book5">
+                <label for="">Islamiat</label>
+                <input type="text" id="BookFive" placeholder="marks">
+            </div>
+            <div>
+                <button onclick="calculate()">CALCULATE</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td>Total Marks:</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Obtain marks:</td>
+                <td id="Obtain"></td>
+            </tr>
+            <tr>
+                <td>Percentage:</td>
+                <td id="per"></td>
+            </tr>
+            <tr>
+                <td>Grade:</td>
+                <td id="Grade"></td>
+            </tr>
+            <tr>
+                <td>remarks:</td>
+                <td id="remarks"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
